@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Objects that Exist</title>
+    </head>
+    <body>
+        <img src="images/chair.jpg" alt="Wooden Chair" width="200px" height="200px" title="Wooden Chair">
+        <br>
+        <a href="mailto:noreply@email.com">Contact Zach</a>
+        <h1>Some Objects</h1>
+        <!-- Simple Table -->
+        <table id="simple-table" border="1" cellspacing="0">
+            <tr>
+                <th>Name</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td>Spoon</td>
+                <td>
+                    <a href="https://www.amazon.com/AmazonBasics-Stainless-Steel-Dinner-Spoons/dp/B0736THH7G" target="_blank">Spoon Homepage</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Rock</td>
+                <td>
+                    <a href="https://www.petrock.com/" target="_blank">Rock Homepage</a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <!-- Complex Table -->
+        <table id="complex-table" border="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th scope="column">Inanimate</th>
+                    <th scope="column">Cheap-ish</th>
+                    <th scope="column">Processed</th>
+                    <th scope="column">I own</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Spoon</td>
+                    <td colspan="3">yes</td>
+                    <td>yes</td>
+                </tr>
+                <tr>
+                    <td>Rock</td>
+                    <td colspan="2">yes</td>
+                    <td>no</td>
+                    <td>no</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="5">&copy; Dan Aykroyd 2021</td>
+            </tfoot>
+        </table>
+    </body>
+</html>
